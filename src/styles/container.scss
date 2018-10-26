@@ -1,0 +1,26 @@
+.container-custom {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:100%;
+    .list-group {
+        margin:0;
+        padding:0;
+        .list-group-item {
+            border-top:1px solid #ccc;
+            border-right:1px solid #ccc;
+            border-left:1px solid #ccc;
+            padding:1rem;
+            cursor:pointer;
+            list-style: none;
+            &:hover {
+                background-color:#000;
+                color:#fff;
+            }
+            &:last-child {
+                border-bottom:1px solid #ccc;
+            }
+        }
+    }
+}
